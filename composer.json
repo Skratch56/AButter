@@ -61,8 +61,7 @@
     "extra": {
         "laravel": {
             "dont-discover": [
-                "nwidart/laravel-modules",
-                "laravel/dusk"
+                "nwidart/laravel-modules"
             ]
         },
         "branch-alias": {

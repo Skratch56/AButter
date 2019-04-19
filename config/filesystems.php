@@ -55,11 +55,11 @@ return [
 
         's3' => [
             'driver' => 's3',
-            'key' => env('AKIAURHBRP276SYUJQOH'),
-            'secret' => env('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'),
-            'region' => env('eu-central-1'),
-            'bucket' => env('africanbutter'),
-            'url' => env('http://s3-eu-central-1.amazonaws.com/africanbutter'),
+            'key' => 'AKIAURHBRP27QCTRSGHK',
+            'secret' => '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',
+            'region' => 'eu-central-1',
+            'bucket' => 'africanbutter',
+            'url' => 'http://s3-eu-central-1.amazonaws.com/africanbutter',
         ],
     ],
 ];

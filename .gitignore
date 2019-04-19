@@ -3,7 +3,6 @@
 *.sublime-project
 
 node_modules/
-/vendor
 /public/storage
 /public/media
 /public/modules
@@ -15,4 +14,4 @@ npm-debug.log
 yarn-error.log
 tags
 *.map
-.env
+

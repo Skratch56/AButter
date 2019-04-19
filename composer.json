@@ -40,7 +40,7 @@
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ],
         "post-autoload-dump": [
-            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump"
 
         ],
         "post-install-cmd": [

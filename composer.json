@@ -46,7 +46,6 @@
         ],
         "post-install-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postInstall",
-            "php artisan config:cache",
             "php artisan serve"
         ],
         "post-update-cmd": [

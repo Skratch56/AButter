@@ -12,7 +12,7 @@ return [
     |
     */
 
-    'default' => env('FILESYSTEM_DRIVER', 's3'),
+    'default' => env('FILESYSTEM_DRIVER', 'public'),
 
     /*
     |--------------------------------------------------------------------------
@@ -25,7 +25,7 @@ return [
     |
     */
 
-    'cloud' => env('FILESYSTEM_CLOUD', 'public'),
+    'cloud' => env('FILESYSTEM_CLOUD', 's3'),
 
     /*
     |--------------------------------------------------------------------------

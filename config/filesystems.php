@@ -55,10 +55,10 @@ return [
 
         's3' => [
             'driver' => 's3',
-            'key' => env('AWS_ACCESS_KEY_ID'),
-            'secret' => env('AWS_SECRET_ACCESS_KEY'),
+            'key' => env('AKIAURHBRP276SYUJQOH'),
+            'secret' => env('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'),
             'region' => env('AWS_DEFAULT_REGION'),
-            'bucket' => env('AWS_BUCKET'),
+            'bucket' => env('africanbutter'),
             'url' => env('AWS_URL'),
         ],
     ],

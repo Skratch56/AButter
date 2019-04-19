@@ -57,9 +57,9 @@ return [
             'driver' => 's3',
             'key' => env('AKIAURHBRP276SYUJQOH'),
             'secret' => env('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'),
-            'region' => env('AWS_DEFAULT_REGION'),
+            'region' => env('Global'),
             'bucket' => env('africanbutter'),
-            'url' => env('AWS_URL'),
+            'url' => env('https://311858134719.signin.aws.amazon.com/console'),
         ],
     ],
 ];

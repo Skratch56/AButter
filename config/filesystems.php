@@ -57,9 +57,9 @@ return [
             'driver' => 's3',
             'key' => env('AKIAURHBRP276SYUJQOH'),
             'secret' => env('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'),
-            'region' => env('Global'),
+            'region' => env('eu-central-1'),
             'bucket' => env('africanbutter'),
-            'url' => env('https://311858134719.signin.aws.amazon.com/console'),
+            'url' => env('http://s3-eu-central-1.amazonaws.com/africanbutter'),
         ],
     ],
 ];

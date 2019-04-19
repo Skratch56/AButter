@@ -1,5 +1,7 @@
 <?php
-
+if (App::environment('production')) {
+    URL::forceScheme('https');
+}
 Route::get('storefront', [
     'as' => 'admin.storefront.settings.edit',
     'uses' => 'StorefrontController@edit',

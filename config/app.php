@@ -62,7 +62,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://african-butter.herokuapp.com/'),
+    'url' => env('APP_URL', 'https://african-butter.herokuapp.com'),
 
     /*
     |--------------------------------------------------------------------------

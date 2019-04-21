@@ -59,7 +59,7 @@ return [
             'secret' => 'LzyCni17BpNY38uhy7kbHmuP74uwi205UnrD035l',
             'region' => 'eu-central-1',
             'bucket' => 'africanbutter',
-            'url' => 'http://s3-eu-central-1.amazonaws.com/africanbutter',
+            'url' => 'https://s3-eu-central-1.amazonaws.com/africanbutter',
         ],
     ],
 ];

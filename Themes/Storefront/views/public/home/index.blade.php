@@ -5,7 +5,7 @@
 @section('content')
     @unless (is_null($slider))
         @if (storefront_layout() === 'default')
-            <div class="col-lg-9 col-lg-offset-3 col-md-9 col-md-offset-3">
+            <div class="col-lg-offset-0 col-md-offset-0">
                 <div class="row">
                     @include('public.home.sections.slider')
                 </div>

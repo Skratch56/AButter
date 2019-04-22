@@ -2,8 +2,8 @@
     <div class="container">
         <div class="footer-top p-tb-50 clearfix">
             <div class="row">
-                <div class="col-md-4">
-                    <a href="{{ route('home') }}" class="footer-logo">
+                <div class="col-md-3">
+                    <a href="{{ route('home') }}" class="logo">
                         @if (is_null($footerLogo))
                             <h2>{{ setting('store_name') }}</h2>
                         @else
